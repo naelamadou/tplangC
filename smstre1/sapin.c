@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<myconio.h>
+main()
+{
+gotoxy(10,1);textcolor(10);printf("*");
+gotoxy(9,2);textcolor(10);printf("***");
+gotoxy(8,3);textcolor(10);printf("*****");
+gotoxy(7,4);textcolor(10);printf("*******");
+gotoxy(6,5);textcolor(10);printf("*********");
+gotoxy(5,6);textcolor(10);printf("***********");
+gotoxy(10,7);textcolor(10);printf("@");
+gotoxy(10,8);textcolor(10);printf("@");
+gotoxy(10,9);textcolor(10);printf("@");
+gotoxy(10,10);textcolor(10);printf("@");
+}
